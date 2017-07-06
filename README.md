@@ -2,7 +2,7 @@
 a tiny ppm,pgm IO
 
 # Simple Use:
-write ths ascii P3 type ppm/pgm
+write ppm/pgm image
 
     (1) custom value use RGB data
     int width = 2;
