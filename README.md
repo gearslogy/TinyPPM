@@ -68,6 +68,7 @@ write ths ascii P3 type ppm/pgm
 	destroyRGBArray(data);
 	
 Read Image back:
+
     (1) read as raw
     ReadParams readParm;
 	uchar *readBData = (uchar *) readImage("c:/testb.ppm",readParm,RAW_TYPE);
