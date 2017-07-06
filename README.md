@@ -3,11 +3,15 @@ a tiny ppm,pgm IO
 
 
 width:2
+
 height:2
 
 uchar(2*2*3) :
+
    OOO OOO OOO OOO
+   
 RGB(2*2): One of them have three uchar 
+
     O   O   O   O
 
     
