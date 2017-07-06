@@ -3,6 +3,7 @@ a tiny ppm,pgm IO
 
 # Simple Use:
 write ths ascii P3 type ppm/pgm
+
     (1) custom value use RGB data
     int width = 2;
     int height = 2;
