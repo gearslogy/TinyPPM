@@ -19,7 +19,7 @@ write ppm/pgm image
 	readParam.height
 	readParam.maxPixelValue
 	*/
-
+    // write binary
 	PPMIO::WriteParam writeParam;
 	writeParam.width = readParam.width;
 	writeParam.height = readParam.height;
@@ -31,7 +31,7 @@ write ppm/pgm image
 	
 	
 	/*
-	// write binary
+	// write ASCII
 	PPMIO::WriteParam writeParam;
 	writeParam.width = readParam.width;
 	writeParam.height = readParam.height;
