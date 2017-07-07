@@ -11,7 +11,7 @@ void readWriteAsciiCPP()
 	PPMIO::ReadParam readParam;
 	void *data = imio.readImage("c:/test.ppm",readParam, PPMIO::RGB_TYPE);
 
-   // write binary
+    // write binary
 	PPMIO::WriteParam writeParam;
 	writeParam.width = readParam.width;
 	writeParam.height = readParam.height;
